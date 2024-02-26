@@ -1,0 +1,31 @@
+.nav_bar{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#imghack{
+    width: 100px;
+    height: 100px;
+    margin: 0 
+    padding: 8px 16px;
+}
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin: 32px 64px 8px 0px;
+}
+body {
+    background-image: url(assets/bg.jpeg.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: poppins;
+}
+.nav_element{
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 24px;
+}
